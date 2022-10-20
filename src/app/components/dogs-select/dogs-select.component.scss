@@ -1,0 +1,36 @@
+.select-container {
+  width: 50%;
+  min-width: 200px;
+  height: 100%;
+  justify-content: center;
+  padding: 2rem;
+  border-radius: 15px;
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2);
+  background: linear-gradient(to bottom, #33ccff 0%, #ff9999 100%);
+}
+
+
+.select-header {
+    width: 100%;
+    margin: 0 0 2rem 0;
+    text-align: center;
+  }
+  .select-header-title{
+    font-size: 30px;
+    font-family: 'Lato', sans-serif;
+  }
+
+  select {
+    height: 35px;
+    width: 100%;
+    box-sizing: content-box;
+    cursor: pointer;
+    padding: 0.2rem 0.4rem;
+    border-radius: 10px;
+    border: none;
+    font-size: clamp(0.6rem, 1.5vw, 1.1rem);
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.4);
+    outline: none;
+  }
+
+

@@ -1,0 +1,15 @@
+<section class="dogs-info-section">
+    <div class="dog-info-container">
+        <div class="dog-info-img-block">
+            <img src="{{ dogImageSrc }}" onerror="src='./assets/default_dog_photo.jpg'">
+        </div>
+    </div>
+
+    <div class="info-about-block">
+        <h2>{{ dog.breed}}</h2>
+        <div class="additional-dog-info">
+            <p class="info-dog">Dowiedz się więcej o rasie</p>
+            <a href="https://pl.wikipedia.org/wiki/ {{ dog.breed }}">Click</a>
+        </div>
+    </div>
+</section>
